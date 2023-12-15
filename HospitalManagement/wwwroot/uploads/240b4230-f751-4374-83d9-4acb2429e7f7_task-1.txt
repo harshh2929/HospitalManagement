@@ -1,0 +1,7 @@
+let hour=prompt("input the hours")
+let min=prompt("input the min")
+function  seconds(hour,min){
+return  hour*60*60+min*60;
+}
+console.log  (seconds(hour,min))
+
